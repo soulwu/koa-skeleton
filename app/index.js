@@ -27,3 +27,6 @@ app.use(_.get('/', routes.index));
 app.listen(process.env.APP_PORT, () => {
     console.info(`${process.env.APP_NAME} is running on ${process.env.APP_PORT}`);
 });
+
+// Export app for mocha/supertest
+module.exports = app;
