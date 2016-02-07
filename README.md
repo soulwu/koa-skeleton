@@ -1,4 +1,4 @@
-# Koa Skeleton.
+# Koa Skeleton [![Build Status](https://travis-ci.org/tomhardman0/koa-skeleton.svg?branch=master)](https://travis-ci.org/tomhardman0/koa-skeleton)
 
 ## Server
 
