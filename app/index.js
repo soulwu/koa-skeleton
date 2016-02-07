@@ -19,7 +19,7 @@ const jade = new Jade({
 })
 
 // Serve static files (images / dist js/css)
-app.use(mount('/assets', static('./app/assets')));
+app.use(mount('/assets', static('./app/dist')));
 
 // Routes
 app.use(_.get('/', routes.index));
